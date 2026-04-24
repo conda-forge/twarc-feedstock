@@ -1,13 +1,13 @@
 {% set name = "twarc" %}
-{% set version = "2.14.0" %}
+{% set version = "2.14.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/twarc-{{ version }}.tar.gz
-  sha256: fa8ee3052d8b9678231bea95d1bdcbabb3968d35c56a8d1fcedc8982e8c66a66
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/twarc-{{ version }}.tar.gz
+  sha256: 54537495c6575863769e82ba4a0db7d68538e7c5afa9b8fcc8856a0ae94d9fa0
 
 build:
   entry_points:
